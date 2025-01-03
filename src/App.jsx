@@ -12,7 +12,6 @@ import InsightsSlider from './components/InsightSlider';
 import PortfolioSection from './components/PortfolioSection';
 import FaqSection from './components/FaqSection';
 import Footer from './components/footer';
-import CreateInvoiceForm from './components/CreateInvoiceForm ';
 
 function App() {
   return (
@@ -29,7 +28,6 @@ function App() {
       <PortfolioSection/>
       <FaqSection/>
       <Footer/>
-      {/* <CreateInvoiceForm/> */}
     </div>
   );
 }

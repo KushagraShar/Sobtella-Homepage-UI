@@ -64,7 +64,6 @@ const InsightsSlider = () => {
 
   return (
     <div style={visionStyle} className="max-w-7xl mx-auto px-4 py-12">
-      {/* Header Section */}
       <div className="flex justify-between items-center mb-8">
         <div>
           <h2 className="text-4xl font-bold mb-4">Insights For Aspiring Fashion Brands</h2>
@@ -90,7 +89,6 @@ const InsightsSlider = () => {
         </div>
       </div>
 
-      {/* Slider Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {slides.slice(currentIndex, currentIndex + 3).map((slide, index) => (
           <div key={index} className="relative group overflow-hidden rounded-2xl">

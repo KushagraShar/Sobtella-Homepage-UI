@@ -30,7 +30,7 @@ const PortfolioSection = () => {
 
   return (
     <div style={visionStyle} className="max-w-7xl mx-auto px-4 py-16">
-      {/* Header Section */}
+      
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold mb-4">Our Work Speaks For Itself</h2>
         <p className="text-gray-900 max-w-7xl mx-auto">
@@ -38,7 +38,6 @@ const PortfolioSection = () => {
         </p>
       </div>
 
-      {/* Filter Buttons */}
       <div className="flex justify-center gap-4 mb-12 flex-wrap">
         {filters.map((filter) => (
           <button
@@ -55,7 +54,7 @@ const PortfolioSection = () => {
         ))}
       </div>
 
-      {/* Portfolio Grid */}
+      
       <div className="w-full">
         {portfolioItems.map((item) => (
           <div 

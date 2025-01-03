@@ -29,12 +29,10 @@ const FaqSection = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-16">
-      {/* Header */}
       <h2 className="text-4xl font-bold text-center mb-12">
         Frequently Bought Together
       </h2>
 
-      {/* FAQ Items */}
       <div className="space-y-4">
         {faqData.map((item, index) => (
           <div key={index} className="border-b border-gray-200">
@@ -60,7 +58,6 @@ const FaqSection = () => {
         ))}
       </div>
 
-      {/* View More Button */}
       <div className="text-center mt-12">
         <button className="px-8 text-lg font-bold py-3 border-2 border-black rounded-full hover:bg-black hover:text-white transition-colors">
           View More

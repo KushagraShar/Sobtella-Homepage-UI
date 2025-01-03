@@ -8,7 +8,7 @@ const ServicesSection = () => {
   };
   return (
     <div style={visionStyle} className="max-w-7xl mx-auto px-4 py-12">
-      {/* Header Section */}
+     
       <div className="text-center mb-12">
         <h2 className="text-5xl font-bold mb-6">What We Offer</h2>
         <p className="text-gray-900 max-w-7xl mx-auto">
@@ -18,7 +18,7 @@ const ServicesSection = () => {
         </p>
       </div>
 
-      {/* Service Tags */}
+      
       <div className="flex justify-center gap-4 mb-12">
         <div className="px-6 py-2 text-lg font-bold border-2 border-gray-900 rounded-full cursor-pointer hover:bg-black hover:text-white transition-colors">
           Tech Packs
@@ -31,10 +31,10 @@ const ServicesSection = () => {
         </div>
       </div>
 
-      {/* Main Content Card */}
+      
       <div className="bg-gradient-to-br from-zinc-900 to-zinc-500 rounded-3xl overflow-hidden shadow-xl">
         <div className="flex flex-col md:flex-row">
-          {/* Image Section */}
+          
           <div className="md:w-1/2 p-7">
             <div className="rounded-1xl overflow-hidden h-full">
               <img
@@ -45,7 +45,7 @@ const ServicesSection = () => {
             </div>
           </div>
 
-          {/* Content Section */}
+          
           <div className="md:w-1/2 p-8 flex flex-col justify-center">
             <div className="text-white">
               <p className="text-lg mb-6">
@@ -64,7 +64,7 @@ const ServicesSection = () => {
         </div>
       </div>
 
-      {/* Contact Button */}
+     
       <div className="text-center mt-12">
         <button className="bg-black text-white text-xl px-9 py-2 rounded-full hover:bg-white hover:text-black border border-transparent hover:border-black transition-all">
           Contact Sales

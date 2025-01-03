@@ -24,7 +24,6 @@ function Hero() {
   return (
     <div style={visionStyle} className="relative pt-32">
       <div className="relative w-full h-[600px] rounded-3xl mx-auto max-w-[1600px] overflow-hidden">
-        {/* Video Background */}
         <div className="absolute inset-0">
           <video
             ref={videoRef}
@@ -38,10 +37,8 @@ function Hero() {
           </video>
         </div>
 
-        {/* Semi-transparent overlay */}
         <div className="absolute inset-0 bg-black/40"></div>
 
-        {/* Content */}
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-8">
           <h1 className="text-[64px] font-bold leading-tight mb-6 text-black">
             From Vision to Reality<br />
@@ -56,7 +53,6 @@ function Hero() {
           </button>
         </div>
 
-        {/* Play/Pause Button */}
         <button
           onClick={togglePlay}
           className="absolute bottom-6 right-6 z-20 bg-white/20 backdrop-blur-sm p-3 rounded-full hover:bg-white/30 transition-colors"

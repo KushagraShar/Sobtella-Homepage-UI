@@ -14,7 +14,6 @@ function Features() {
     <>
     <div style={visionStyle} className="max-w-[1400px] mx-auto px-6 py-12">
       <div className="flex flex-wrap justify-center items-center gap-8 text-center md:text-left md:justify-between">
-        {/* Custom Branding */}
         <div className="flex flex-col items-center md:flex-row space-x-0 md:space-x-4 w-full md:w-auto">
           <div className="w-12 h-12">
             <img src={custombrand} alt="Custom Branding" className="w-full h-full" />
@@ -25,7 +24,6 @@ function Features() {
           </div>
         </div>
 
-        {/* White-Label Options */}
         <div className="flex flex-col items-center md:flex-row space-x-0 md:space-x-4 w-full md:w-auto">
           <div className="w-12 h-12">
             <img src={whitelabel} alt="White-Label" className="w-full h-full" />
@@ -36,7 +34,6 @@ function Features() {
           </div>
         </div>
 
-        {/* End-To-End Support */}
         <div className="flex flex-col items-center md:flex-row space-x-0 md:space-x-4 w-full md:w-auto">
           <div className="w-12 h-12">
             <img src={endend} alt="End-To-End Support" className="w-full h-full" />
@@ -47,7 +44,6 @@ function Features() {
           </div>
         </div>
 
-        {/* Scalable Solutions */}
         <div className="flex flex-col items-center md:flex-row space-x-0 md:space-x-4 w-full md:w-auto">
           <div className="w-12 h-12">
             <img src={scalablesol} alt="Scalable Solutions" className="w-full h-full" />

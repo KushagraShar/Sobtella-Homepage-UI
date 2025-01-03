@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-16">
           <img src={logo} alt="SÖTBELLA360" className="h-25" />
           
-          {/* Desktop Menu */}
+         
           <div className="hidden md:flex space-x-8">
             <a href="#" className="text-black hover:text-gray-600 transition-colors">Home</a>
             <a href="#" className="text-black hover:text-gray-600 transition-colors">About</a>
@@ -29,14 +29,13 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Desktop Contact Button */}
         <div className="hidden md:flex items-center space-x-6">
           <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-white hover:text-black border border-transparent hover:border-black transition-all">
             Contact Sales
           </button>
         </div>
 
-        {/* Mobile Menu Button */}
+       
         <button 
           className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors"
           onClick={toggleMenu}
@@ -46,7 +45,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+     
       <div 
         className={`absolute top-full left-0 right-0 bg-white md:hidden shadow-lg transition-all duration-300 ease-in-out ${
           isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'

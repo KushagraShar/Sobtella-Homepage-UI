@@ -9,7 +9,6 @@ const Footer = () => {
         <img src={logo} className='h-12'/>
         </div>
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12">
-        {/* Company Info */}
         <div className="space-y-6">
           {/* <h2 className="text-2xl font-bold">SÖTBELLA360</h2> */}
           
@@ -29,7 +28,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Useful Links */}
         <div>
           <h3 className="text-lg font-semibold mb-6">Useful Links</h3>
           <ul className="space-y-4">
@@ -41,7 +39,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Our Services */}
         <div>
           <h3 className="text-lg font-semibold mb-6">Our Services</h3>
           <ul className="space-y-4">
